@@ -59,6 +59,7 @@ Route::group(
 Route::group(
     ['middleware' => ['can:view roles']],
     function () {
+        //dd('string');
         Route::get('roles/permissions', 'RoleController@getPermissions')->name('roles.get_permissions');
 
         Route::get('roles/search', 'RoleController@search')->name('roles.search');

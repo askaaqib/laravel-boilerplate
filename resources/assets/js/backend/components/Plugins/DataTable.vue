@@ -102,6 +102,7 @@ export default {
   watch: {
     actions: {
       handler () {
+        console.log(this.actions)
         this.action = Object.keys(this.actions)[0]
       },
       immediate: true

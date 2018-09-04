@@ -24,6 +24,7 @@ class RoleController extends BackendController
     public function __construct(RoleRepository $roles)
     {
         $this->roles = $roles;
+        
     }
 
     /**
