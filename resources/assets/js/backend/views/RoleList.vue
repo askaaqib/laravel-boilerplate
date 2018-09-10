@@ -14,7 +14,6 @@
                    search-route="admin.roles.search"
                    delete-route="admin.roles.destroy"
                    :length-change="false" :paging="false" :infos="false" :search="false"
-                   :selected.sync="selected"
       >
         <b-table ref="datatable"
                  striped
